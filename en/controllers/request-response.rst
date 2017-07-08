@@ -187,7 +187,7 @@ subdirectory. The attributes you can use are::
     $here = $request->here();
 
     // Holds /subdir
-    $base = $request->getAttribute('base');
+    $webroot = $request->getAttribute('webroot');
 
     // Holds /subdir/
     $base = $request->getAttribute('base');
